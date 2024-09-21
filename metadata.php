@@ -72,12 +72,14 @@ $aModule = [
 		'onDeactivate' => 'Bla\Matomo\Application\Core\Events::onDeactivate',
 	],
 	'blocks'      => [
+	/*
 		[
 			'theme'    => 'flow',
 			'template' => 'layout/base.tpl',
 			'block'    => 'base_js',
 			'file'     => '/Application/views/blocks/base_js.tpl'
 		],
+  */
 		[
 			'theme'    => 'flow',
 			'template' => 'layout/base.tpl',
@@ -90,12 +92,14 @@ $aModule = [
 			'block'    => 'email_html_header',
 			'file'     => '/Application/views/blocks/email_html_header.tpl'
 		],
+	/*
 		[
 			'theme'    => 'wave',
 			'template' => 'layout/base.tpl',
 			'block'    => 'base_js',
 			'file'     => '/Application/views/blocks/base_js.tpl'
 		],
+  */
 		[
 			'theme'    => 'wave',
 			'template' => 'layout/base.tpl',
